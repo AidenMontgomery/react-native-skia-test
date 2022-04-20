@@ -142,8 +142,13 @@ export class SolarData {
       });
     }
 
-    const response = await fetch(API_ENDPOINT);
-    const newData: EnergyData = await response.json();
-    return SolarData.processData(newData);
+    try {
+      const response = await fetch(API_ENDPOINT);
+      const newData: EnergyData = await response.json();
+      return SolarData.processData(newData);
+    } catch (error) {
+      console.log(error);
+      return SolarData.initialData;
+    }
   };
 }
