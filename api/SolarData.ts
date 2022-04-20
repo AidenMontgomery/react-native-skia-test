@@ -2,6 +2,8 @@ import {SolarDisplayData} from '../SolarDisplayData';
 import {EnergyData} from './EnergyData';
 import {MockData} from './MockData';
 
+const API_ENDPOINT = 'http://192.168.0.2:1880/solar_flow';
+
 export class SolarData {
   static mockDataCallCount = 0;
   static initialData: SolarDisplayData = {
@@ -26,6 +28,8 @@ export class SolarData {
     isGridActive: false,
 
     batteryLevel: 0,
+
+    lastUpdated: new Date(),
   };
 
   static processData(newData: EnergyData): SolarDisplayData {
@@ -123,6 +127,7 @@ export class SolarData {
       }
     });
 
+    updatedData.lastUpdated = new Date();
     return updatedData;
   }
 
@@ -137,7 +142,7 @@ export class SolarData {
       });
     }
 
-    const response = await fetch('http://192.168.0.2:1880/solar_flow');
+    const response = await fetch(API_ENDPOINT);
     const newData: EnergyData = await response.json();
     return SolarData.processData(newData);
   };

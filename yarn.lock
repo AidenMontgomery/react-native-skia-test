@@ -1394,6 +1394,11 @@
   "resolved" "https://registry.npmjs.org/@types/json-schema/-/json-schema-7.0.11.tgz"
   "version" "7.0.11"
 
+"@types/luxon@^2.3.1":
+  "integrity" "sha512-nAPUltOT28fal2eDZz8yyzNhBjHw1NEymFBP7Q9iCShqpflWPybxHbD7pw/46jQmT+HXOy1QN5hNTms8MOTlOQ=="
+  "resolved" "https://registry.npmjs.org/@types/luxon/-/luxon-2.3.1.tgz"
+  "version" "2.3.1"
+
 "@types/node@*":
   "integrity" "sha512-UxDxWn7dl97rKVeVS61vErvw086aCYhDLyvRQZ5Rk65rZKepaFdm53GeqXaKBuOhED4e9uWq34IC3TdSdJJ2Gw=="
   "resolved" "https://registry.npmjs.org/@types/node/-/node-17.0.23.tgz"
@@ -4764,6 +4769,11 @@
   "integrity" "sha512-AmXqneQZL3KZMIgBpaPTeI6pfwh+xQ2vutMsyqOu1TBdEXFZgpG/80wuJ531w2ZN7TI0/oc8CPxzh/DKQudZqg=="
   "resolved" "https://registry.npmjs.org/lru-cache/-/lru-cache-7.8.0.tgz"
   "version" "7.8.0"
+
+"luxon@^2.3.2":
+  "integrity" "sha512-MlAQQVMFhGk4WUA6gpfsy0QycnKP0+NlCBJRVRNPxxSIbjrCbQ65nrpJD3FVyJNZLuJ0uoqL57ye6BmDYgHaSw=="
+  "resolved" "https://registry.npmjs.org/luxon/-/luxon-2.3.2.tgz"
+  "version" "2.3.2"
 
 "make-dir@^2.0.0", "make-dir@^2.1.0":
   "integrity" "sha512-LS9X+dc8KLxXCb8dni79fLIIUA5VyZoyjSMCwTluaXA0o27cCK0bhXkpgw+sTXVpPy/lSO57ilRixqk0vDmtRA=="

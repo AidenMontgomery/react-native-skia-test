@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@shopify/react-native-skia": "^0.1.119",
+    "luxon": "^2.3.2",
     "react": "17.0.2",
     "react-native": "0.68.0",
     "react-native-redash": "^16.2.3"
@@ -20,6 +21,7 @@
     "@babel/runtime": "^7.12.5",
     "@react-native-community/eslint-config": "^2.0.0",
     "@types/jest": "^26.0.23",
+    "@types/luxon": "^2.3.1",
     "@types/react-native": "^0.67.3",
     "@types/react-test-renderer": "^17.0.1",
     "@typescript-eslint/eslint-plugin": "^5.17.0",

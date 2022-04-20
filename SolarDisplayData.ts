@@ -20,4 +20,6 @@ export type SolarDisplayData = {
   isGridActive: boolean;
 
   batteryLevel: number;
+
+  lastUpdated: Date;
 };
